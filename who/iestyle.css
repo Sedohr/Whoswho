@@ -1,0 +1,15 @@
+ul.nav {
+	margin:5px 0 0 -30px;
+}
+
+ul.nav li#nav1 {
+	margin:-10px 0 0 -15px;
+}
+
+ul.nav li#nav2 {
+	margin:-10px 0 0 -120px;
+}
+
+.subnavigation  {
+	margin:0 0 0 -120px;
+}

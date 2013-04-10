@@ -1,0 +1,100 @@
+/* Main Document Settings */
+body {
+	
+	color:#000000;
+}
+
+.wrapper {
+	width:960px;
+	margin:0 auto;
+	background-color:#FFFFFF;
+	border:solid;
+	border-width:2px 2px 0 2px;
+	border-color:#A0A0A0;
+}
+
+/* Navigation */
+.navigation {
+	border:dashed;
+	border-width:1px;
+	padding:5px;
+	position:fixed;
+	text-align:center;
+	width:255px;
+	height:30px;
+	background-color:#FFFFFF;
+	margin-left:690px;
+	margin-top:5px;
+}
+
+ul.nav {
+	margin:5px 0 0 -50px;
+}
+
+ul.nav li {
+	list-style-type:none;
+	display:inline-block;
+	width:125px;
+	text-align:center;
+	padding:0 0 0 5px;
+	margin-top:-10px;
+}
+
+ul.nav a {
+	display:inline-block;
+	font:Normal 18px Arial;
+	margin-bottom:-25px;
+	padding:0 0 0 0;
+}
+
+ul.nav li#nav1 {
+	margin:-10px 10px 0 -5px;
+}
+
+ul.nav li#nav2 {
+	border:solid;
+	border-width:0 0 0 1px;
+	margin:-10px -10px 0 -15px;
+}
+
+.nav a:link {
+	text-decoration:none;
+	color:#000000;
+}
+
+.nav a:visited {
+	color:#000000;
+}
+
+.nav li:hover {
+	background-color:#E8E8E8;
+}
+
+/* Submenu navigation */
+
+.subnavigation {
+	text-align:center;
+	display:none;
+	position:absolute;
+	margin:0 0 0 -6px;
+	padding:1px 0 0 0;
+}
+
+.subnavigation li {
+	position:relative;
+	border:solid;
+	border-width:1px 1px 1px 1px;
+	background-color:#FFFFFF;
+	display:block;
+	height:25px;
+	padding:0;
+}
+
+.subnavigation li:first-of-type {
+	border-top:dashed 1px #000000;
+}
+
+/* Actual page */
+.content {
+	padding:75px 10px 0 10px;
+}
