@@ -1,0 +1,1 @@
+Working on a website for my team. Learning more languages and finding cool things to do while working on the project.
